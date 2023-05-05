@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.main-section{
+    width: 100%;
+    min-height:100vh;
+    background-color: black;
+    background-position: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+.card-body{
+  background-color: greenyellow
+}
+.head{
+  color: #fff;
+  padding-top: 5%;
+ 
+}
+.w{
+  color: #fff;
+}
+.navbar-brand{
+  color: greenyellow;
+  font-size: 20px;
+}
+span{
+  color: #fff;
+}
+.whole{
+  transition: transform 0.5s;
+   padding-top: 5%;
+}
+.whole:hover{
+  transform: translate(-10px);
+}
+.col{
+  transition: transform 0.5s;
+}
+.col:hover{
+  transform: translate(-10px);
+}
+.coll{
+  transition: transform 0.5s;
+}
+.coll:hover{
+  transform: translate(-10px);
+}
+.colll{
+  transition: transform 0.5s;
+}
+.colll:hover{
+  transform: translate(-10px);
+}
+.container-fluid{
+  padding-top: 5%;
+}
+.date-container .time{
+  font-size: 40px;
+  color: #fff;
+}
+.date-container #am-pm{
+  font-size: 20px;
+  margin-left: 5px;
+}
+.date-container .date{
+  font-size: 15px;
+  color: #fff;
+}
+.time-container{
+  text-align: center;
+}
+/* .shadow{
+  background-color: rgba(24,24,27,0.6);
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #eee;
+
+} */
+
+.new-section{
+    width:100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+table{
+    background-color: white;
+    width:100%;
+}
